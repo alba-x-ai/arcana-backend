@@ -3,6 +3,10 @@
     "id": 1,
     "key": "magician",
     "name": { "en": "The Magician", "ru": "Маг" },
+    "meaning": {
+      "en": "The Magician represents conscious action, focus, and the ability to direct energy into form.",
+      "ru": "Маг символизирует осознанное действие, концентрацию и способность направлять энергию в форму."
+    },
     "positions": {
       "past": {
         "en": "You learned how to direct your energy instead of wasting it.",
@@ -22,6 +26,10 @@
     "id": 2,
     "key": "high_priestess",
     "name": { "en": "The High Priestess", "ru": "Верховная Жрица" },
+    "meaning": {
+      "en": "The High Priestess represents intuition, inner knowledge, silence, and hidden truths.",
+      "ru": "Верховная Жрица символизирует интуицию, внутреннее знание, тишину и скрытые истины."
+    },
     "positions": {
       "past": {
         "en": "You were guided by intuition even when logic was absent.",
@@ -41,6 +49,10 @@
     "id": 3,
     "key": "empress",
     "name": { "en": "The Empress", "ru": "Императрица" },
+    "meaning": {
+      "en": "The Empress represents creation, care, embodiment, and the natural flow of life.",
+      "ru": "Императрица символизирует созидание, заботу, телесность и естественный поток жизни."
+    },
     "positions": {
       "past": {
         "en": "You experienced growth through care, beauty, or connection.",
@@ -60,13 +72,17 @@
     "id": 4,
     "key": "emperor",
     "name": { "en": "The Emperor", "ru": "Император" },
+    "meaning": {
+      "en": "The Emperor represents structure, responsibility, stability, and authority.",
+      "ru": "Император символизирует структуру, ответственность, устойчивость и власть."
+    },
     "positions": {
       "past": {
         "en": "You learned discipline through rules, limits, or authority.",
         "ru": "Вы освоили дисциплину через правила, границы или авторитет."
       },
       "present": {
-        "en": "Stability requires ownership, not control.",
+        "en": "Stability requires responsibility, not control.",
         "ru": "Стабильность требует ответственности, а не контроля."
       },
       "future": {
@@ -75,10 +91,15 @@
       }
     }
   },
+
   {
     "id": 5,
     "key": "hierophant",
     "name": { "en": "The Hierophant", "ru": "Иерофант" },
+    "meaning": {
+      "en": "The Hierophant represents tradition, belief systems, and shared spiritual frameworks.",
+      "ru": "Иерофант символизирует традиции, системы верований и коллективные духовные структуры."
+    },
     "positions": {
       "past": {
         "en": "Teachings or mentors shaped your worldview.",
@@ -94,10 +115,15 @@
       }
     }
   },
+
   {
     "id": 6,
     "key": "lovers",
     "name": { "en": "The Lovers", "ru": "Влюблённые" },
+    "meaning": {
+      "en": "The Lovers represent choice, alignment, and conscious relationship.",
+      "ru": "Влюблённые символизируют выбор, согласие и осознанную связь."
+    },
     "positions": {
       "past": {
         "en": "A meaningful bond or decision shaped your direction.",
@@ -113,10 +139,15 @@
       }
     }
   },
+
   {
     "id": 7,
     "key": "chariot",
     "name": { "en": "The Chariot", "ru": "Колесница" },
+    "meaning": {
+      "en": "The Chariot represents direction, willpower, and inner balance in motion.",
+      "ru": "Колесница символизирует направление, волю и внутренний баланс в движении."
+    },
     "positions": {
       "past": {
         "en": "You learned to move forward despite inner conflict.",
@@ -132,14 +163,19 @@
       }
     }
   },
+
   {
     "id": 8,
     "key": "strength",
     "name": { "en": "Strength", "ru": "Сила" },
+    "meaning": {
+      "en": "Strength represents inner courage, gentleness, and emotional mastery.",
+      "ru": "Сила символизирует внутреннюю смелость, мягкость и управление эмоциями."
+    },
     "positions": {
       "past": {
         "en": "You discovered that gentleness can be stronger than force.",
-        "ru": "Вы поняли, что мягкость может быть сильнее силы."
+        "ru": "Вы поняли, что мягкость может быть сильнее грубой силы."
       },
       "present": {
         "en": "Patience and compassion are your true sources of power.",
@@ -151,14 +187,19 @@
       }
     }
   },
+
   {
     "id": 9,
     "key": "hermit",
     "name": { "en": "The Hermit", "ru": "Отшельник" },
+    "meaning": {
+      "en": "The Hermit represents introspection, solitude, and inner guidance.",
+      "ru": "Отшельник символизирует самоанализ, уединение и внутреннее руководство."
+    },
     "positions": {
       "past": {
         "en": "A period of solitude shaped your understanding.",
-        "ru": "Период уединения глубоко сформировал ваше понимание."
+        "ru": "Период уединения сформировал ваше понимание."
       },
       "present": {
         "en": "Step back and listen inwardly.",
@@ -170,10 +211,15 @@
       }
     }
   },
+
   {
     "id": 10,
     "key": "wheel_of_fortune",
     "name": { "en": "Wheel of Fortune", "ru": "Колесо Фортуны" },
+    "meaning": {
+      "en": "The Wheel of Fortune represents cycles, fate, and inevitable change.",
+      "ru": "Колесо Фортуны символизирует циклы, судьбу и неизбежные перемены."
+    },
     "positions": {
       "past": {
         "en": "Uncontrollable events set change in motion.",
@@ -189,10 +235,15 @@
       }
     }
   },
+
   {
     "id": 11,
     "key": "justice",
     "name": { "en": "Justice", "ru": "Справедливость" },
+    "meaning": {
+      "en": "Justice represents truth, balance, and conscious accountability.",
+      "ru": "Справедливость символизирует истину, равновесие и осознанную ответственность."
+    },
     "positions": {
       "past": {
         "en": "Actions and choices are returning with consequences.",
@@ -208,10 +259,15 @@
       }
     }
   },
+
   {
     "id": 12,
     "key": "hanged_man",
     "name": { "en": "The Hanged Man", "ru": "Повешенный" },
+    "meaning": {
+      "en": "The Hanged Man represents surrender, pause, and a shift in perspective.",
+      "ru": "Повешенный символизирует сдачу, паузу и смену точки зрения."
+    },
     "positions": {
       "past": {
         "en": "You were asked to let go before you were ready.",
@@ -227,10 +283,15 @@
       }
     }
   },
+
   {
     "id": 13,
     "key": "death",
     "name": { "en": "Death", "ru": "Смерть" },
+    "meaning": {
+      "en": "Death represents endings, transformation, and necessary release.",
+      "ru": "Смерть символизирует завершения, трансформацию и необходимое освобождение."
+    },
     "positions": {
       "past": {
         "en": "An ending already cleared space for change.",
@@ -246,10 +307,15 @@
       }
     }
   },
+
   {
     "id": 14,
     "key": "temperance",
     "name": { "en": "Temperance", "ru": "Умеренность" },
+    "meaning": {
+      "en": "Temperance represents balance, integration, and patient transformation.",
+      "ru": "Умеренность символизирует баланс, интеграцию и постепенное преобразование."
+    },
     "positions": {
       "past": {
         "en": "You learned to blend different parts of yourself.",
@@ -265,10 +331,15 @@
       }
     }
   },
+
   {
     "id": 15,
     "key": "devil",
     "name": { "en": "The Devil", "ru": "Дьявол" },
+    "meaning": {
+      "en": "The Devil represents attachment, desire, and unconscious patterns.",
+      "ru": "Дьявол символизирует привязанности, желания и бессознательные паттерны."
+    },
     "positions": {
       "past": {
         "en": "Habits or attachments shaped your behavior.",
@@ -284,10 +355,15 @@
       }
     }
   },
+
   {
     "id": 16,
     "key": "tower",
     "name": { "en": "The Tower", "ru": "Башня" },
+    "meaning": {
+      "en": "The Tower represents sudden change, collapse of illusion, and truth revealed.",
+      "ru": "Башня символизирует внезапные перемены, разрушение иллюзий и обнажённую истину."
+    },
     "positions": {
       "past": {
         "en": "A disruption exposed unstable foundations.",
@@ -303,10 +379,15 @@
       }
     }
   },
+
   {
     "id": 17,
     "key": "star",
     "name": { "en": "The Star", "ru": "Звезда" },
+    "meaning": {
+      "en": "The Star represents hope, healing, and quiet trust in the future.",
+      "ru": "Звезда символизирует надежду, исцеление и тихое доверие будущему."
+    },
     "positions": {
       "past": {
         "en": "A quiet hope endured through difficulty.",
@@ -322,10 +403,15 @@
       }
     }
   },
+
   {
     "id": 18,
     "key": "moon",
     "name": { "en": "The Moon", "ru": "Луна" },
+    "meaning": {
+      "en": "The Moon represents uncertainty, intuition, and the unconscious mind.",
+      "ru": "Луна символизирует неопределённость, интуицию и бессознательное."
+    },
     "positions": {
       "past": {
         "en": "Uncertainty once clouded your path.",
@@ -341,10 +427,15 @@
       }
     }
   },
+
   {
     "id": 19,
     "key": "sun",
     "name": { "en": "The Sun", "ru": "Солнце" },
+    "meaning": {
+      "en": "The Sun represents vitality, joy, and conscious clarity.",
+      "ru": "Солнце символизирует жизненную силу, радость и осознанную ясность."
+    },
     "positions": {
       "past": {
         "en": "Authentic joy gave you strength.",
@@ -360,10 +451,15 @@
       }
     }
   },
+
   {
     "id": 20,
     "key": "judgement",
     "name": { "en": "Judgement", "ru": "Суд" },
+    "meaning": {
+      "en": "Judgement represents awakening, truth, and a call to renewal.",
+      "ru": "Суд символизирует пробуждение, истину и призыв к обновлению."
+    },
     "positions": {
       "past": {
         "en": "Truths called for responsibility.",
@@ -379,10 +475,15 @@
       }
     }
   },
+
   {
     "id": 21,
     "key": "world",
     "name": { "en": "The World", "ru": "Мир" },
+    "meaning": {
+      "en": "The World represents completion, wholeness, and integration.",
+      "ru": "Мир символизирует завершённость, целостность и интеграцию."
+    },
     "positions": {
       "past": {
         "en": "A long cycle reached completion.",
@@ -398,10 +499,15 @@
       }
     }
   },
+
   {
     "id": 22,
     "key": "fool",
     "name": { "en": "The Fool", "ru": "Шут" },
+    "meaning": {
+      "en": "The Fool represents openness, trust, and the courage to begin anew.",
+      "ru": "Шут символизирует открытость, доверие и смелость начать заново."
+    },
     "positions": {
       "past": {
         "en": "You once stepped forward guided by curiosity.",
