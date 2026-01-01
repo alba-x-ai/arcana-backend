@@ -2,90 +2,418 @@
   {
     "id": 1,
     "key": "magician",
-    "name": {
-      "en": "The Magician"
-    },
+    "name": { "en": "The Magician", "ru": "Маг" },
     "positions": {
       "past": {
-        "en": "You learned how to direct your energy instead of wasting it."
+        "en": "You learned how to direct your energy instead of wasting it.",
+        "ru": "Вы научились направлять свою энергию, а не растрачивать её впустую."
       },
       "present": {
-        "en": "You are being asked to act — not wait, not doubt."
+        "en": "You are being asked to act — not wait, not doubt.",
+        "ru": "Сейчас от вас требуется действие — не ожидание и не сомнение."
       },
       "future": {
-        "en": "Mastery comes through deliberate choice and practice."
+        "en": "Mastery comes through deliberate choice and practice.",
+        "ru": "Мастерство приходит через осознанный выбор и практику."
       }
     }
   },
   {
     "id": 2,
     "key": "high_priestess",
-    "name": {
-      "en": "The High Priestess"
-    },
+    "name": { "en": "The High Priestess", "ru": "Верховная Жрица" },
     "positions": {
       "past": {
-        "en": "You were guided by intuition even when logic was absent."
+        "en": "You were guided by intuition even when logic was absent.",
+        "ru": "В прошлом вы следовали интуиции, даже когда логика молчала."
       },
       "present": {
-        "en": "Something is not meant to be revealed yet — listen inward."
+        "en": "Something is not meant to be revealed yet — listen inward.",
+        "ru": "Не всё предназначено для раскрытия сейчас — прислушайтесь внутрь."
       },
       "future": {
-        "en": "Clarity will emerge when you stop forcing answers."
+        "en": "Clarity will emerge when you stop forcing answers.",
+        "ru": "Ясность появится, когда вы перестанете требовать ответов."
       }
     }
   },
   {
     "id": 3,
     "key": "empress",
-    "name": {
-      "en": "The Empress"
-    },
+    "name": { "en": "The Empress", "ru": "Императрица" },
     "positions": {
       "past": {
-        "en": "You experienced growth through care, beauty, or connection."
+        "en": "You experienced growth through care, beauty, or connection.",
+        "ru": "Рост пришёл через заботу, красоту или близость."
       },
       "present": {
-        "en": "It is time to nurture what you want to grow."
+        "en": "It is time to nurture what you want to grow.",
+        "ru": "Сейчас время питать и взращивать то, что вы хотите развить."
       },
       "future": {
-        "en": "What you invest love in will flourish."
+        "en": "What you invest love in will flourish.",
+        "ru": "То, во что вы вкладываете любовь, будет процветать."
       }
     }
   },
   {
     "id": 4,
     "key": "emperor",
-    "name": {
-      "en": "The Emperor"
-    },
+    "name": { "en": "The Emperor", "ru": "Император" },
     "positions": {
       "past": {
-        "en": "You learned discipline through rules, limits, or authority."
+        "en": "You learned discipline through rules, limits, or authority.",
+        "ru": "Вы освоили дисциплину через правила, границы или авторитет."
       },
       "present": {
-        "en": "Stability requires ownership, not control."
+        "en": "Stability requires ownership, not control.",
+        "ru": "Стабильность требует ответственности, а не контроля."
       },
       "future": {
-        "en": "What you build with integrity will endure."
+        "en": "What you build with integrity will endure.",
+        "ru": "То, что вы создадите с честностью, будет долговечным."
       }
     }
   },
   {
     "id": 5,
     "key": "hierophant",
-    "name": {
-      "en": "The Hierophant"
-    },
+    "name": { "en": "The Hierophant", "ru": "Иерофант" },
     "positions": {
       "past": {
-        "en": "Teachings or mentors shaped your worldview."
+        "en": "Teachings or mentors shaped your worldview.",
+        "ru": "Учения или наставники сформировали ваше мировоззрение."
       },
       "present": {
-        "en": "You are questioning inherited beliefs."
+        "en": "You are questioning inherited beliefs.",
+        "ru": "Вы пересматриваете унаследованные убеждения."
       },
       "future": {
-        "en": "True guidance comes through lived experience."
+        "en": "True guidance comes through lived experience.",
+        "ru": "Истинное наставничество приходит через прожитый опыт."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "key": "lovers",
+    "name": { "en": "The Lovers", "ru": "Влюблённые" },
+    "positions": {
+      "past": {
+        "en": "A meaningful bond or decision shaped your direction.",
+        "ru": "Значимая связь или выбор задали направление."
+      },
+      "present": {
+        "en": "You are asked to choose with honesty, not convenience.",
+        "ru": "От вас требуется честный выбор, а не удобный."
+      },
+      "future": {
+        "en": "Alignment brings clarity, even if it requires sacrifice.",
+        "ru": "Созвучие принесёт ясность, даже если потребует жертвы."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "key": "chariot",
+    "name": { "en": "The Chariot", "ru": "Колесница" },
+    "positions": {
+      "past": {
+        "en": "You learned to move forward despite inner conflict.",
+        "ru": "Вы научились двигаться вперёд, несмотря на внутренний конфликт."
+      },
+      "present": {
+        "en": "Progress depends on mastering opposing forces within you.",
+        "ru": "Продвижение зависит от управления противоположностями внутри."
+      },
+      "future": {
+        "en": "Momentum will carry you where intention is clear.",
+        "ru": "Импульс приведёт вас туда, где намерение ясно."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "key": "strength",
+    "name": { "en": "Strength", "ru": "Сила" },
+    "positions": {
+      "past": {
+        "en": "You discovered that gentleness can be stronger than force.",
+        "ru": "Вы поняли, что мягкость может быть сильнее силы."
+      },
+      "present": {
+        "en": "Patience and compassion are your true sources of power.",
+        "ru": "Терпение и сострадание — ваши главные источники силы."
+      },
+      "future": {
+        "en": "Calm confidence will yield lasting results.",
+        "ru": "Спокойная уверенность принесёт устойчивые результаты."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "key": "hermit",
+    "name": { "en": "The Hermit", "ru": "Отшельник" },
+    "positions": {
+      "past": {
+        "en": "A period of solitude shaped your understanding.",
+        "ru": "Период уединения глубоко сформировал ваше понимание."
+      },
+      "present": {
+        "en": "Step back and listen inwardly.",
+        "ru": "Сделайте шаг назад и прислушайтесь к себе."
+      },
+      "future": {
+        "en": "Your clarity will guide both you and others.",
+        "ru": "Ваша ясность станет ориентиром и для вас, и для других."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "key": "wheel_of_fortune",
+    "name": { "en": "Wheel of Fortune", "ru": "Колесо Фортуны" },
+    "positions": {
+      "past": {
+        "en": "Uncontrollable events set change in motion.",
+        "ru": "События вне вашего контроля запустили перемены."
+      },
+      "present": {
+        "en": "A turning point is unfolding now.",
+        "ru": "Сейчас разворачивается поворотный момент."
+      },
+      "future": {
+        "en": "Acceptance of change opens new paths.",
+        "ru": "Принятие перемен откроет новые пути."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "key": "justice",
+    "name": { "en": "Justice", "ru": "Справедливость" },
+    "positions": {
+      "past": {
+        "en": "Actions and choices are returning with consequences.",
+        "ru": "Поступки и решения возвращаются с последствиями."
+      },
+      "present": {
+        "en": "Honesty with yourself is required.",
+        "ru": "Необходима честность прежде всего с собой."
+      },
+      "future": {
+        "en": "Balance will be restored through truth.",
+        "ru": "Равновесие восстановится через правду."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "key": "hanged_man",
+    "name": { "en": "The Hanged Man", "ru": "Повешенный" },
+    "positions": {
+      "past": {
+        "en": "You were asked to let go before you were ready.",
+        "ru": "Вам пришлось отпустить прежде, чем вы были готовы."
+      },
+      "present": {
+        "en": "A new perspective matters more than action.",
+        "ru": "Новая точка зрения сейчас важнее действия."
+      },
+      "future": {
+        "en": "Insight arrives as resistance softens.",
+        "ru": "Понимание приходит, когда сопротивление ослабевает."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "key": "death",
+    "name": { "en": "Death", "ru": "Смерть" },
+    "positions": {
+      "past": {
+        "en": "An ending already cleared space for change.",
+        "ru": "Завершение уже освободило место для перемен."
+      },
+      "present": {
+        "en": "Release brings alignment, not loss.",
+        "ru": "Отпускание здесь — это не потеря, а согласие."
+      },
+      "future": {
+        "en": "A truer beginning emerges.",
+        "ru": "Появляется более подлинное начало."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "key": "temperance",
+    "name": { "en": "Temperance", "ru": "Умеренность" },
+    "positions": {
+      "past": {
+        "en": "You learned to blend different parts of yourself.",
+        "ru": "Вы научились соединять разные части себя."
+      },
+      "present": {
+        "en": "Harmony grows through moderation.",
+        "ru": "Гармония рождается через меру."
+      },
+      "future": {
+        "en": "Consistency will transform the situation.",
+        "ru": "Последовательность изменит ситуацию."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "key": "devil",
+    "name": { "en": "The Devil", "ru": "Дьявол" },
+    "positions": {
+      "past": {
+        "en": "Habits or attachments shaped your behavior.",
+        "ru": "Привычки или привязанности формировали ваше поведение."
+      },
+      "present": {
+        "en": "Awareness reveals where choice became compulsion.",
+        "ru": "Осознание показывает, где выбор стал зависимостью."
+      },
+      "future": {
+        "en": "Freedom grows as agency is reclaimed.",
+        "ru": "Свобода растёт по мере возвращения ответственности."
+      }
+    }
+  },
+  {
+    "id": 16,
+    "key": "tower",
+    "name": { "en": "The Tower", "ru": "Башня" },
+    "positions": {
+      "past": {
+        "en": "A disruption exposed unstable foundations.",
+        "ru": "Потрясение обнажило нестабильные основания."
+      },
+      "present": {
+        "en": "What falls away restores truth.",
+        "ru": "То, что разрушается, возвращает к истине."
+      },
+      "future": {
+        "en": "From clarity, something honest can be built.",
+        "ru": "Из ясности можно построить нечто честное."
+      }
+    }
+  },
+  {
+    "id": 17,
+    "key": "star",
+    "name": { "en": "The Star", "ru": "Звезда" },
+    "positions": {
+      "past": {
+        "en": "A quiet hope endured through difficulty.",
+        "ru": "Тихая надежда сохранилась сквозь трудности."
+      },
+      "present": {
+        "en": "Gentleness is restoring balance.",
+        "ru": "Мягкость восстанавливает равновесие."
+      },
+      "future": {
+        "en": "Healing unfolds through patience.",
+        "ru": "Исцеление раскрывается через терпение."
+      }
+    }
+  },
+  {
+    "id": 18,
+    "key": "moon",
+    "name": { "en": "The Moon", "ru": "Луна" },
+    "positions": {
+      "past": {
+        "en": "Uncertainty once clouded your path.",
+        "ru": "Неопределённость когда-то затуманивала путь."
+      },
+      "present": {
+        "en": "Not everything needs immediate clarity.",
+        "ru": "Не всё требует немедленной ясности."
+      },
+      "future": {
+        "en": "Understanding emerges with trust in intuition.",
+        "ru": "Понимание приходит через доверие интуиции."
+      }
+    }
+  },
+  {
+    "id": 19,
+    "key": "sun",
+    "name": { "en": "The Sun", "ru": "Солнце" },
+    "positions": {
+      "past": {
+        "en": "Authentic joy gave you strength.",
+        "ru": "Подлинная радость дала вам силу."
+      },
+      "present": {
+        "en": "Presence and openness bring warmth.",
+        "ru": "Присутствие и открытость приносят тепло."
+      },
+      "future": {
+        "en": "Clarity illuminates the way forward.",
+        "ru": "Ясность освещает дальнейший путь."
+      }
+    }
+  },
+  {
+    "id": 20,
+    "key": "judgement",
+    "name": { "en": "Judgement", "ru": "Суд" },
+    "positions": {
+      "past": {
+        "en": "Truths called for responsibility.",
+        "ru": "Истины требовали ответственности."
+      },
+      "present": {
+        "en": "A clear call invites renewal.",
+        "ru": "Ясный зов приглашает к обновлению."
+      },
+      "future": {
+        "en": "Acceptance leads to rebirth.",
+        "ru": "Принятие ведёт к возрождению."
+      }
+    }
+  },
+  {
+    "id": 21,
+    "key": "world",
+    "name": { "en": "The World", "ru": "Мир" },
+    "positions": {
+      "past": {
+        "en": "A long cycle reached completion.",
+        "ru": "Долгий цикл подошёл к завершению."
+      },
+      "present": {
+        "en": "You stand in balance and wholeness.",
+        "ru": "Вы находитесь в состоянии целостности и равновесия."
+      },
+      "future": {
+        "en": "Fulfillment opens new horizons.",
+        "ru": "Завершённость открывает новые горизонты."
+      }
+    }
+  },
+  {
+    "id": 22,
+    "key": "fool",
+    "name": { "en": "The Fool", "ru": "Шут" },
+    "positions": {
+      "past": {
+        "en": "You once stepped forward guided by curiosity.",
+        "ru": "Когда-то вы шагнули вперёд, ведомые любопытством."
+      },
+      "present": {
+        "en": "Freedom comes from trusting the unknown.",
+        "ru": "Свобода приходит через доверие неизвестному."
+      },
+      "future": {
+        "en": "A new journey begins with openness.",
+        "ru": "Новый путь начинается с открытости."
       }
     }
   }
