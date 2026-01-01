@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "key": "magician",
+    "name": {
+      "en": "The Magician"
+    },
+    "positions": {
+      "past": {
+        "en": "You learned how to direct your energy instead of wasting it."
+      },
+      "present": {
+        "en": "You are being asked to act — not wait, not doubt."
+      },
+      "future": {
+        "en": "Mastery comes through deliberate choice and practice."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "key": "high_priestess",
+    "name": {
+      "en": "The High Priestess"
+    },
+    "positions": {
+      "past": {
+        "en": "You were guided by intuition even when logic was absent."
+      },
+      "present": {
+        "en": "Something is not meant to be revealed yet — listen inward."
+      },
+      "future": {
+        "en": "Clarity will emerge when you stop forcing answers."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "key": "empress",
+    "name": {
+      "en": "The Empress"
+    },
+    "positions": {
+      "past": {
+        "en": "You experienced growth through care, beauty, or connection."
+      },
+      "present": {
+        "en": "It is time to nurture what you want to grow."
+      },
+      "future": {
+        "en": "What you invest love in will flourish."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "key": "emperor",
+    "name": {
+      "en": "The Emperor"
+    },
+    "positions": {
+      "past": {
+        "en": "You learned discipline through rules, limits, or authority."
+      },
+      "present": {
+        "en": "Stability requires ownership, not control."
+      },
+      "future": {
+        "en": "What you build with integrity will endure."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "key": "hierophant",
+    "name": {
+      "en": "The Hierophant"
+    },
+    "positions": {
+      "past": {
+        "en": "Teachings or mentors shaped your worldview."
+      },
+      "present": {
+        "en": "You are questioning inherited beliefs."
+      },
+      "future": {
+        "en": "True guidance comes through lived experience."
+      }
+    }
+  }
+]
