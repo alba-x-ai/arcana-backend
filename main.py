@@ -6,6 +6,7 @@ from pathlib import Path
 
 app = FastAPI()
 
+# --- CORS (нужно для Telegram Mini App) ---
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -13,18 +14,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- загрузка арканов из JSON ---
-
+# --- Загрузка арканов из JSON ---
 ARCANA_PATH = Path(__file__).parent / "arcana.json"
 
 with open(ARCANA_PATH, "r", encoding="utf-8") as f:
     ARCANA = json.load(f)
 
-# --- endpoint ---
-
+# --- Endpoint: расклад из 3 карт ---
 @app.get("/spread/three")
-def three_card_spread(user_id: int = 0, language: str = "en"):
+def three_card_spread(language: str = "en"):
     positions = ["past", "present", "future"]
+
+    # выбираем 3 разные карты
     cards = random.sample(ARCANA, 3)
 
     spread = []
@@ -38,8 +39,16 @@ def three_card_spread(user_id: int = 0, language: str = "en"):
                 "name": card["name"].get(language, card["name"]["en"])
             },
             "meaning": {
-                "full": card["positions"][pos].get(language, card["positions"][pos]["en"])
+                # общий смысл карты
+                "card": card["meaning"].get(language, card["meaning"]["en"]),
+                # позиционный смысл
+                "position": card["positions"][pos].get(
+                    language,
+                    card["positions"][pos]["en"]
+                )
             }
         })
 
-    return {"cards": spread}
+    return {
+        "cards": spread
+    }
