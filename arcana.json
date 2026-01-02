@@ -1,93 +1,150 @@
 [
   {
+    "id": 0,
+    "key": "fool",
+    "name": { "en": "The Fool", "ru": "Шут" },
+    "meaning": {
+      "upright": {
+        "en": "The Fool represents openness, trust in life, and the courage to begin without knowing the outcome.",
+        "ru": "Шут символизирует открытость, доверие жизни и смелость начать путь, не зная результата."
+      },
+      "reversed": {
+        "en": "The Fool reversed speaks of hesitation or fear of stepping into the unknown.",
+        "ru": "Перевёрнутый Шут говорит о сомнении или страхе сделать шаг в неизвестное."
+      }
+    },
+    "positions": {
+      "past": {
+        "en": "A moment when you followed curiosity rather than certainty.",
+        "ru": "Период, когда ты следовал(а) импульсу, а не гарантиям."
+      },
+      "present": {
+        "en": "You are standing at the edge of a new beginning.",
+        "ru": "Ты находишься на пороге нового начала."
+      },
+      "future": {
+        "en": "A leap of faith will open unexpected paths.",
+        "ru": "Доверие приведёт к неожиданным возможностям."
+      }
+    }
+  },
+
+  {
     "id": 1,
     "key": "magician",
     "name": { "en": "The Magician", "ru": "Маг" },
     "meaning": {
-      "en": "The Magician represents conscious action, focus, and the ability to direct energy into form.",
-      "ru": "Маг символизирует осознанное действие, концентрацию и способность направлять энергию в форму."
+      "upright": {
+        "en": "The Magician represents focused intention and the ability to shape reality.",
+        "ru": "Маг символизирует сосредоточенную волю и способность влиять на реальность."
+      },
+      "reversed": {
+        "en": "Reversed, the Magician reflects scattered energy or self-doubt.",
+        "ru": "В перевёрнутом положении Маг указывает на рассеянную энергию или сомнение в себе."
+      }
     },
     "positions": {
       "past": {
-        "en": "You learned how to direct your energy instead of wasting it.",
-        "ru": "Вы научились направлять свою энергию, а не растрачивать её впустую."
+        "en": "You learned how to direct your energy with intention.",
+        "ru": "Ты учился(ась) управлять своей силой осознанно."
       },
       "present": {
-        "en": "You are being asked to act — not wait, not doubt.",
-        "ru": "Сейчас от вас требуется действие — не ожидание и не сомнение."
+        "en": "Your power is available now, if you choose to use it.",
+        "ru": "Сила доступна тебе сейчас — важно решить, как её применить."
       },
       "future": {
-        "en": "Mastery comes through deliberate choice and practice.",
-        "ru": "Мастерство приходит через осознанный выбор и практику."
+        "en": "Clear intention will lead to tangible results.",
+        "ru": "Ясное намерение приведёт к ощутимым результатам."
       }
     }
   },
+
   {
     "id": 2,
     "key": "high_priestess",
     "name": { "en": "The High Priestess", "ru": "Верховная Жрица" },
     "meaning": {
-      "en": "The High Priestess represents intuition, inner knowledge, silence, and hidden truths.",
-      "ru": "Верховная Жрица символизирует интуицию, внутреннее знание, тишину и скрытые истины."
+      "upright": {
+        "en": "The High Priestess represents intuition, silence, and inner knowing.",
+        "ru": "Верховная Жрица символизирует интуицию, тишину и внутреннее знание."
+      },
+      "reversed": {
+        "en": "Reversed, the High Priestess suggests ignoring inner signals.",
+        "ru": "Перевёрнутая Жрица говорит о том, что внутренние сигналы игнорируются."
+      }
     },
     "positions": {
       "past": {
-        "en": "You were guided by intuition even when logic was absent.",
-        "ru": "В прошлом вы следовали интуиции, даже когда логика молчала."
+        "en": "You once trusted your intuition deeply.",
+        "ru": "В прошлом ты сильно полагался(ась) на интуицию."
       },
       "present": {
-        "en": "Something is not meant to be revealed yet — listen inward.",
-        "ru": "Не всё предназначено для раскрытия сейчас — прислушайтесь внутрь."
+        "en": "Something asks to be felt rather than explained.",
+        "ru": "Сейчас важно чувствовать, а не анализировать."
       },
       "future": {
-        "en": "Clarity will emerge when you stop forcing answers.",
-        "ru": "Ясность появится, когда вы перестанете требовать ответов."
+        "en": "Listening inward will reveal hidden truth.",
+        "ru": "Внутреннее слушание откроет скрытую истину."
       }
     }
   },
+
   {
     "id": 3,
     "key": "empress",
     "name": { "en": "The Empress", "ru": "Императрица" },
     "meaning": {
-      "en": "The Empress represents creation, care, embodiment, and the natural flow of life.",
-      "ru": "Императрица символизирует созидание, заботу, телесность и естественный поток жизни."
+      "upright": {
+        "en": "The Empress represents growth, care, beauty, and creation.",
+        "ru": "Императрица символизирует рост, заботу, красоту и созидание."
+      },
+      "reversed": {
+        "en": "Reversed, the Empress points to blocked creativity or difficulty receiving care.",
+        "ru": "Перевёрнутая Императрица указывает на застой в творчестве или трудность принимать заботу."
+      }
     },
     "positions": {
       "past": {
-        "en": "You experienced growth through care, beauty, or connection.",
-        "ru": "Рост пришёл через заботу, красоту или близость."
+        "en": "You experienced growth through care or connection.",
+        "ru": "Рост пришёл через заботу или близость."
       },
       "present": {
-        "en": "It is time to nurture what you want to grow.",
-        "ru": "Сейчас время питать и взращивать то, что вы хотите развить."
+        "en": "Something wants to be nurtured.",
+        "ru": "Что-то требует внимания и питания."
       },
       "future": {
-        "en": "What you invest love in will flourish.",
-        "ru": "То, во что вы вкладываете любовь, будет процветать."
+        "en": "What you cultivate now will flourish.",
+        "ru": "То, что ты взращиваешь сейчас, даст плоды."
       }
     }
   },
+
   {
     "id": 4,
     "key": "emperor",
     "name": { "en": "The Emperor", "ru": "Император" },
     "meaning": {
-      "en": "The Emperor represents structure, responsibility, stability, and authority.",
-      "ru": "Император символизирует структуру, ответственность, устойчивость и власть."
+      "upright": {
+        "en": "The Emperor represents structure, stability, and responsibility.",
+        "ru": "Император символизирует структуру, устойчивость и ответственность."
+      },
+      "reversed": {
+        "en": "Reversed, the Emperor reflects instability or questioned authority.",
+        "ru": "Перевёрнутый Император говорит о неустойчивости или сомнениях в авторитете."
+      }
     },
     "positions": {
       "past": {
-        "en": "You learned discipline through rules, limits, or authority.",
-        "ru": "Вы освоили дисциплину через правила, границы или авторитет."
+        "en": "Rules and boundaries shaped your path.",
+        "ru": "Правила и рамки сформировали твой путь."
       },
       "present": {
-        "en": "Stability requires responsibility, not control.",
-        "ru": "Стабильность требует ответственности, а не контроля."
+        "en": "You are asked to take responsibility.",
+        "ru": "Сейчас требуется взять ответственность."
       },
       "future": {
-        "en": "What you build with integrity will endure.",
-        "ru": "То, что вы создадите с честностью, будет долговечным."
+        "en": "Stability will come through clarity of roles.",
+        "ru": "Устойчивость придёт через ясные границы."
       }
     }
   },
@@ -97,21 +154,27 @@
     "key": "hierophant",
     "name": { "en": "The Hierophant", "ru": "Иерофант" },
     "meaning": {
-      "en": "The Hierophant represents tradition, belief systems, and shared spiritual frameworks.",
-      "ru": "Иерофант символизирует традиции, системы верований и коллективные духовные структуры."
+      "upright": {
+        "en": "The Hierophant represents tradition, guidance, and shared belief systems.",
+        "ru": "Иерофант символизирует традицию, наставничество и общие ценности."
+      },
+      "reversed": {
+        "en": "Reversed, the Hierophant invites questioning inherited beliefs.",
+        "ru": "Перевёрнутый Иерофант предлагает усомниться в унаследованных убеждениях."
+      }
     },
     "positions": {
       "past": {
-        "en": "Teachings or mentors shaped your worldview.",
-        "ru": "Учения или наставники сформировали ваше мировоззрение."
+        "en": "You were influenced by tradition or authority.",
+        "ru": "В прошлом на тебя влияли традиции или авторитеты."
       },
       "present": {
-        "en": "You are questioning inherited beliefs.",
-        "ru": "Вы пересматриваете унаследованные убеждения."
+        "en": "You are reflecting on what you truly believe.",
+        "ru": "Сейчас ты пересматриваешь свои убеждения."
       },
       "future": {
-        "en": "True guidance comes through lived experience.",
-        "ru": "Истинное наставничество приходит через прожитый опыт."
+        "en": "True guidance will come from lived experience.",
+        "ru": "Истинное наставление придёт через личный опыт."
       }
     }
   },
@@ -121,21 +184,27 @@
     "key": "lovers",
     "name": { "en": "The Lovers", "ru": "Влюблённые" },
     "meaning": {
-      "en": "The Lovers represent choice, alignment, and conscious relationship.",
-      "ru": "Влюблённые символизируют выбор, согласие и осознанную связь."
+      "upright": {
+        "en": "The Lovers represent alignment, choice, and meaningful connection.",
+        "ru": "Влюблённые символизируют согласие, выбор и значимую связь."
+      },
+      "reversed": {
+        "en": "Reversed, the Lovers point to inner conflict or misalignment.",
+        "ru": "Перевёрнутые Влюблённые указывают на внутренний разлад."
+      }
     },
     "positions": {
       "past": {
-        "en": "A meaningful bond or decision shaped your direction.",
-        "ru": "Значимая связь или выбор задали направление."
+        "en": "A significant choice shaped your journey.",
+        "ru": "Важный выбор повлиял на твой путь."
       },
       "present": {
-        "en": "You are asked to choose with honesty, not convenience.",
-        "ru": "От вас требуется честный выбор, а не удобный."
+        "en": "You are asked to choose with integrity.",
+        "ru": "Сейчас важно выбрать в согласии с собой."
       },
       "future": {
-        "en": "Alignment brings clarity, even if it requires sacrifice.",
-        "ru": "Созвучие принесёт ясность, даже если потребует жертвы."
+        "en": "Alignment will deepen your relationships.",
+        "ru": "Согласие укрепит связи."
       }
     }
   },
@@ -145,21 +214,27 @@
     "key": "chariot",
     "name": { "en": "The Chariot", "ru": "Колесница" },
     "meaning": {
-      "en": "The Chariot represents direction, willpower, and inner balance in motion.",
-      "ru": "Колесница символизирует направление, волю и внутренний баланс в движении."
+      "upright": {
+        "en": "The Chariot represents determination and forward movement.",
+        "ru": "Колесница символизирует решимость и движение вперёд."
+      },
+      "reversed": {
+        "en": "Reversed, the Chariot suggests loss of direction or resistance.",
+        "ru": "Перевёрнутая Колесница говорит о потере направления."
+      }
     },
     "positions": {
       "past": {
-        "en": "You learned to move forward despite inner conflict.",
-        "ru": "Вы научились двигаться вперёд, несмотря на внутренний конфликт."
+        "en": "You pushed forward despite obstacles.",
+        "ru": "Ты двигался(ась) вперёд, несмотря на преграды."
       },
       "present": {
-        "en": "Progress depends on mastering opposing forces within you.",
-        "ru": "Продвижение зависит от управления противоположностями внутри."
+        "en": "Focus will determine progress.",
+        "ru": "Фокус определит движение."
       },
       "future": {
-        "en": "Momentum will carry you where intention is clear.",
-        "ru": "Импульс приведёт вас туда, где намерение ясно."
+        "en": "Aligned effort leads to success.",
+        "ru": "Собранные усилия приведут к результату."
       }
     }
   },
@@ -169,21 +244,27 @@
     "key": "strength",
     "name": { "en": "Strength", "ru": "Сила" },
     "meaning": {
-      "en": "Strength represents inner courage, gentleness, and emotional mastery.",
-      "ru": "Сила символизирует внутреннюю смелость, мягкость и управление эмоциями."
+      "upright": {
+        "en": "Strength represents gentle courage and inner resilience.",
+        "ru": "Сила символизирует мягкую смелость и внутреннюю устойчивость."
+      },
+      "reversed": {
+        "en": "Reversed, Strength reflects vulnerability or self-doubt.",
+        "ru": "Перевёрнутая Сила указывает на уязвимость или сомнение."
+      }
     },
     "positions": {
       "past": {
-        "en": "You discovered that gentleness can be stronger than force.",
-        "ru": "Вы поняли, что мягкость может быть сильнее грубой силы."
+        "en": "You learned patience through challenge.",
+        "ru": "Испытания научили терпению."
       },
       "present": {
-        "en": "Patience and compassion are your true sources of power.",
-        "ru": "Терпение и сострадание — ваши главные источники силы."
+        "en": "Kindness toward yourself is essential now.",
+        "ru": "Сейчас особенно важна доброта к себе."
       },
       "future": {
-        "en": "Calm confidence will yield lasting results.",
-        "ru": "Спокойная уверенность принесёт устойчивые результаты."
+        "en": "True strength will emerge quietly.",
+        "ru": "Истинная сила проявится мягко."
       }
     }
   },
@@ -193,21 +274,27 @@
     "key": "hermit",
     "name": { "en": "The Hermit", "ru": "Отшельник" },
     "meaning": {
-      "en": "The Hermit represents introspection, solitude, and inner guidance.",
-      "ru": "Отшельник символизирует самоанализ, уединение и внутреннее руководство."
+      "upright": {
+        "en": "The Hermit represents introspection and inner guidance.",
+        "ru": "Отшельник символизирует самоисследование и внутреннее руководство."
+      },
+      "reversed": {
+        "en": "Reversed, the Hermit suggests isolation without insight.",
+        "ru": "Перевёрнутый Отшельник говорит об изоляции без ясности."
+      }
     },
     "positions": {
       "past": {
-        "en": "A period of solitude shaped your understanding.",
-        "ru": "Период уединения сформировал ваше понимание."
+        "en": "Solitude offered clarity.",
+        "ru": "Одиночество принесло ясность."
       },
       "present": {
-        "en": "Step back and listen inwardly.",
-        "ru": "Сделайте шаг назад и прислушайтесь к себе."
+        "en": "A pause invites reflection.",
+        "ru": "Пауза приглашает к размышлению."
       },
       "future": {
-        "en": "Your clarity will guide both you and others.",
-        "ru": "Ваша ясность станет ориентиром и для вас, и для других."
+        "en": "Inner truth will guide your steps.",
+        "ru": "Внутренняя истина направит путь."
       }
     }
   },
@@ -217,21 +304,27 @@
     "key": "wheel_of_fortune",
     "name": { "en": "Wheel of Fortune", "ru": "Колесо Фортуны" },
     "meaning": {
-      "en": "The Wheel of Fortune represents cycles, fate, and inevitable change.",
-      "ru": "Колесо Фортуны символизирует циклы, судьбу и неизбежные перемены."
+      "upright": {
+        "en": "The Wheel represents cycles and change beyond control.",
+        "ru": "Колесо Фортуны символизирует циклы и перемены вне контроля."
+      },
+      "reversed": {
+        "en": "Reversed, the Wheel points to resistance to change.",
+        "ru": "Перевёрнутое Колесо указывает на сопротивление переменам."
+      }
     },
     "positions": {
       "past": {
-        "en": "Uncontrollable events set change in motion.",
-        "ru": "События вне вашего контроля запустили перемены."
+        "en": "Fate shifted unexpectedly.",
+        "ru": "Судьба неожиданно повернулась."
       },
       "present": {
-        "en": "A turning point is unfolding now.",
-        "ru": "Сейчас разворачивается поворотный момент."
+        "en": "Change is unfolding now.",
+        "ru": "Перемены происходят сейчас."
       },
       "future": {
-        "en": "Acceptance of change opens new paths.",
-        "ru": "Принятие перемен откроет новые пути."
+        "en": "New cycles will emerge naturally.",
+        "ru": "Новые циклы проявятся естественно."
       }
     }
   },
@@ -239,23 +332,29 @@
   {
     "id": 11,
     "key": "justice",
-    "name": { "en": "Justice", "ru": "Справедливость" },
+    "name": { "en": "Justice", "ru": "Правосудие" },
     "meaning": {
-      "en": "Justice represents truth, balance, and conscious accountability.",
-      "ru": "Справедливость символизирует истину, равновесие и осознанную ответственность."
+      "upright": {
+        "en": "Justice represents truth, balance, and accountability.",
+        "ru": "Правосудие символизирует истину, баланс и ответственность."
+      },
+      "reversed": {
+        "en": "Reversed, Justice reflects inner imbalance or avoidance of truth.",
+        "ru": "Перевёрнутое Правосудие говорит о нарушенном балансе или уходе от правды."
+      }
     },
     "positions": {
       "past": {
-        "en": "Actions and choices are returning with consequences.",
-        "ru": "Поступки и решения возвращаются с последствиями."
+        "en": "Decisions had lasting consequences.",
+        "ru": "Решения имели долгосрочные последствия."
       },
       "present": {
-        "en": "Honesty with yourself is required.",
-        "ru": "Необходима честность прежде всего с собой."
+        "en": "Honesty is required now.",
+        "ru": "Сейчас необходима честность."
       },
       "future": {
-        "en": "Balance will be restored through truth.",
-        "ru": "Равновесие восстановится через правду."
+        "en": "Balance will be restored.",
+        "ru": "Баланс будет восстановлен."
       }
     }
   },
@@ -265,21 +364,27 @@
     "key": "hanged_man",
     "name": { "en": "The Hanged Man", "ru": "Повешенный" },
     "meaning": {
-      "en": "The Hanged Man represents surrender, pause, and a shift in perspective.",
-      "ru": "Повешенный символизирует сдачу, паузу и смену точки зрения."
+      "upright": {
+        "en": "The Hanged Man represents surrender and new perspective.",
+        "ru": "Повешенный символизирует принятие и новый взгляд."
+      },
+      "reversed": {
+        "en": "Reversed, the Hanged Man points to stagnation or resistance.",
+        "ru": "Перевёрнутый Повешенный указывает на застой или сопротивление."
+      }
     },
     "positions": {
       "past": {
-        "en": "You were asked to let go before you were ready.",
-        "ru": "Вам пришлось отпустить прежде, чем вы были готовы."
+        "en": "A pause changed your understanding.",
+        "ru": "Пауза изменила твоё восприятие."
       },
       "present": {
-        "en": "A new perspective matters more than action.",
-        "ru": "Новая точка зрения сейчас важнее действия."
+        "en": "Letting go will bring clarity.",
+        "ru": "Отпускание принесёт ясность."
       },
       "future": {
-        "en": "Insight arrives as resistance softens.",
-        "ru": "Понимание приходит, когда сопротивление ослабевает."
+        "en": "Insight comes through acceptance.",
+        "ru": "Озарение придёт через принятие."
       }
     }
   },
@@ -289,21 +394,27 @@
     "key": "death",
     "name": { "en": "Death", "ru": "Смерть" },
     "meaning": {
-      "en": "Death represents endings, transformation, and necessary release.",
-      "ru": "Смерть символизирует завершения, трансформацию и необходимое освобождение."
+      "upright": {
+        "en": "Death represents transformation and necessary endings.",
+        "ru": "Смерть символизирует трансформацию и необходимые завершения."
+      },
+      "reversed": {
+        "en": "Reversed, Death points to fear of letting go.",
+        "ru": "Перевёрнутая Смерть говорит о страхе отпускания."
+      }
     },
     "positions": {
       "past": {
-        "en": "An ending already cleared space for change.",
-        "ru": "Завершение уже освободило место для перемен."
+        "en": "An ending reshaped your life.",
+        "ru": "Завершение изменило твою жизнь."
       },
       "present": {
-        "en": "Release brings alignment, not loss.",
-        "ru": "Отпускание здесь — это не потеря, а согласие."
+        "en": "Release opens space for renewal.",
+        "ru": "Отпускание освобождает место новому."
       },
       "future": {
-        "en": "A truer beginning emerges.",
-        "ru": "Появляется более подлинное начало."
+        "en": "Transformation leads to rebirth.",
+        "ru": "Трансформация приведёт к обновлению."
       }
     }
   },
@@ -313,21 +424,27 @@
     "key": "temperance",
     "name": { "en": "Temperance", "ru": "Умеренность" },
     "meaning": {
-      "en": "Temperance represents balance, integration, and patient transformation.",
-      "ru": "Умеренность символизирует баланс, интеграцию и постепенное преобразование."
+      "upright": {
+        "en": "Temperance represents harmony, balance, and integration.",
+        "ru": "Умеренность символизирует гармонию и баланс."
+      },
+      "reversed": {
+        "en": "Reversed, Temperance reflects imbalance or excess.",
+        "ru": "Перевёрнутая Умеренность указывает на дисбаланс."
+      }
     },
     "positions": {
       "past": {
-        "en": "You learned to blend different parts of yourself.",
-        "ru": "Вы научились соединять разные части себя."
+        "en": "Patience helped you integrate experiences.",
+        "ru": "Терпение помогло соединить опыт."
       },
       "present": {
-        "en": "Harmony grows through moderation.",
-        "ru": "Гармония рождается через меру."
+        "en": "Balance is being restored.",
+        "ru": "Баланс восстанавливается."
       },
       "future": {
-        "en": "Consistency will transform the situation.",
-        "ru": "Последовательность изменит ситуацию."
+        "en": "Harmony will grow steadily.",
+        "ru": "Гармония будет нарастать постепенно."
       }
     }
   },
@@ -337,21 +454,27 @@
     "key": "devil",
     "name": { "en": "The Devil", "ru": "Дьявол" },
     "meaning": {
-      "en": "The Devil represents attachment, desire, and unconscious patterns.",
-      "ru": "Дьявол символизирует привязанности, желания и бессознательные паттерны."
+      "upright": {
+        "en": "The Devil represents attachment and unconscious patterns.",
+        "ru": "Дьявол символизирует привязанности и неосознанные паттерны."
+      },
+      "reversed": {
+        "en": "Reversed, the Devil suggests awareness and release.",
+        "ru": "Перевёрнутый Дьявол говорит об осознании и освобождении."
+      }
     },
     "positions": {
       "past": {
-        "en": "Habits or attachments shaped your behavior.",
-        "ru": "Привычки или привязанности формировали ваше поведение."
+        "en": "Patterns once held strong influence.",
+        "ru": "Паттерны ранее сильно влияли."
       },
       "present": {
-        "en": "Awareness reveals where choice became compulsion.",
-        "ru": "Осознание показывает, где выбор стал зависимостью."
+        "en": "Awareness loosens old bonds.",
+        "ru": "Осознание ослабляет привязки."
       },
       "future": {
-        "en": "Freedom grows as agency is reclaimed.",
-        "ru": "Свобода растёт по мере возвращения ответственности."
+        "en": "Freedom emerges through clarity.",
+        "ru": "Свобода придёт через ясность."
       }
     }
   },
@@ -361,21 +484,27 @@
     "key": "tower",
     "name": { "en": "The Tower", "ru": "Башня" },
     "meaning": {
-      "en": "The Tower represents sudden change, collapse of illusion, and truth revealed.",
-      "ru": "Башня символизирует внезапные перемены, разрушение иллюзий и обнажённую истину."
+      "upright": {
+        "en": "The Tower represents sudden change and revelation.",
+        "ru": "Башня символизирует резкие перемены и откровения."
+      },
+      "reversed": {
+        "en": "Reversed, the Tower points to avoided upheaval.",
+        "ru": "Перевёрнутая Башня указывает на отложенный кризис."
+      }
     },
     "positions": {
       "past": {
-        "en": "A disruption exposed unstable foundations.",
-        "ru": "Потрясение обнажило нестабильные основания."
+        "en": "Disruption changed your foundations.",
+        "ru": "Потрясение изменило основы."
       },
       "present": {
-        "en": "What falls away restores truth.",
-        "ru": "То, что разрушается, возвращает к истине."
+        "en": "Truth breaks illusions.",
+        "ru": "Истина разрушает иллюзии."
       },
       "future": {
-        "en": "From clarity, something honest can be built.",
-        "ru": "Из ясности можно построить нечто честное."
+        "en": "Renewal follows disruption.",
+        "ru": "Обновление следует за разрушением."
       }
     }
   },
@@ -385,21 +514,27 @@
     "key": "star",
     "name": { "en": "The Star", "ru": "Звезда" },
     "meaning": {
-      "en": "The Star represents hope, healing, and quiet trust in the future.",
-      "ru": "Звезда символизирует надежду, исцеление и тихое доверие будущему."
+      "upright": {
+        "en": "The Star represents hope, renewal, and quiet faith.",
+        "ru": "Звезда символизирует надежду, обновление и тихую веру."
+      },
+      "reversed": {
+        "en": "Reversed, the Star reflects fading hope.",
+        "ru": "Перевёрнутая Звезда говорит об ослаблении надежды."
+      }
     },
     "positions": {
       "past": {
-        "en": "A quiet hope endured through difficulty.",
-        "ru": "Тихая надежда сохранилась сквозь трудности."
+        "en": "Hope guided you forward.",
+        "ru": "Надежда вела тебя."
       },
       "present": {
-        "en": "Gentleness is restoring balance.",
-        "ru": "Мягкость восстанавливает равновесие."
+        "en": "Gentle healing is underway.",
+        "ru": "Идёт мягкое исцеление."
       },
       "future": {
-        "en": "Healing unfolds through patience.",
-        "ru": "Исцеление раскрывается через терпение."
+        "en": "Faith will quietly return.",
+        "ru": "Вера постепенно вернётся."
       }
     }
   },
@@ -409,21 +544,27 @@
     "key": "moon",
     "name": { "en": "The Moon", "ru": "Луна" },
     "meaning": {
-      "en": "The Moon represents uncertainty, intuition, and the unconscious mind.",
-      "ru": "Луна символизирует неопределённость, интуицию и бессознательное."
+      "upright": {
+        "en": "The Moon represents uncertainty and the unconscious.",
+        "ru": "Луна символизирует неопределённость и подсознание."
+      },
+      "reversed": {
+        "en": "Reversed, the Moon suggests confusion lifting.",
+        "ru": "Перевёрнутая Луна указывает на рассеивание тумана."
+      }
     },
     "positions": {
       "past": {
-        "en": "Uncertainty once clouded your path.",
-        "ru": "Неопределённость когда-то затуманивала путь."
+        "en": "Uncertainty shaped your perception.",
+        "ru": "Неясность формировала восприятие."
       },
       "present": {
-        "en": "Not everything needs immediate clarity.",
-        "ru": "Не всё требует немедленной ясности."
+        "en": "Trust what is felt, not seen.",
+        "ru": "Доверься ощущениям."
       },
       "future": {
-        "en": "Understanding emerges with trust in intuition.",
-        "ru": "Понимание приходит через доверие интуиции."
+        "en": "Clarity emerges gradually.",
+        "ru": "Ясность проявится постепенно."
       }
     }
   },
@@ -433,21 +574,27 @@
     "key": "sun",
     "name": { "en": "The Sun", "ru": "Солнце" },
     "meaning": {
-      "en": "The Sun represents vitality, joy, and conscious clarity.",
-      "ru": "Солнце символизирует жизненную силу, радость и осознанную ясность."
+      "upright": {
+        "en": "The Sun represents clarity, joy, and openness.",
+        "ru": "Солнце символизирует ясность, радость и открытость."
+      },
+      "reversed": {
+        "en": "Reversed, the Sun reflects muted joy.",
+        "ru": "Перевёрнутое Солнце говорит о приглушённой радости."
+      }
     },
     "positions": {
       "past": {
-        "en": "Authentic joy gave you strength.",
-        "ru": "Подлинная радость дала вам силу."
+        "en": "Joy illuminated your path.",
+        "ru": "Радость освещала путь."
       },
       "present": {
-        "en": "Presence and openness bring warmth.",
-        "ru": "Присутствие и открытость приносят тепло."
+        "en": "Light is available now.",
+        "ru": "Свет доступен сейчас."
       },
       "future": {
-        "en": "Clarity illuminates the way forward.",
-        "ru": "Ясность освещает дальнейший путь."
+        "en": "Warmth and clarity will grow.",
+        "ru": "Тепло и ясность усилятся."
       }
     }
   },
@@ -457,21 +604,27 @@
     "key": "judgement",
     "name": { "en": "Judgement", "ru": "Суд" },
     "meaning": {
-      "en": "Judgement represents awakening, truth, and a call to renewal.",
-      "ru": "Суд символизирует пробуждение, истину и призыв к обновлению."
+      "upright": {
+        "en": "Judgement represents awakening and inner calling.",
+        "ru": "Суд символизирует пробуждение и внутренний зов."
+      },
+      "reversed": {
+        "en": "Reversed, Judgement suggests reluctance to answer the call.",
+        "ru": "Перевёрнутый Суд указывает на неготовность откликнуться."
+      }
     },
     "positions": {
       "past": {
-        "en": "Truths called for responsibility.",
-        "ru": "Истины требовали ответственности."
+        "en": "A moment of awakening occurred.",
+        "ru": "Произошёл момент пробуждения."
       },
       "present": {
-        "en": "A clear call invites renewal.",
-        "ru": "Ясный зов приглашает к обновлению."
+        "en": "Reflection prepares renewal.",
+        "ru": "Размышление готовит обновление."
       },
       "future": {
-        "en": "Acceptance leads to rebirth.",
-        "ru": "Принятие ведёт к возрождению."
+        "en": "A call will become undeniable.",
+        "ru": "Зов станет неоспоримым."
       }
     }
   },
@@ -481,45 +634,27 @@
     "key": "world",
     "name": { "en": "The World", "ru": "Мир" },
     "meaning": {
-      "en": "The World represents completion, wholeness, and integration.",
-      "ru": "Мир символизирует завершённость, целостность и интеграцию."
-    },
-    "positions": {
-      "past": {
-        "en": "A long cycle reached completion.",
-        "ru": "Долгий цикл подошёл к завершению."
+      "upright": {
+        "en": "The World represents completion and integration.",
+        "ru": "Мир символизирует завершение и целостность."
       },
-      "present": {
-        "en": "You stand in balance and wholeness.",
-        "ru": "Вы находитесь в состоянии целостности и равновесия."
-      },
-      "future": {
-        "en": "Fulfillment opens new horizons.",
-        "ru": "Завершённость открывает новые горизонты."
+      "reversed": {
+        "en": "Reversed, the World reflects incomplete closure.",
+        "ru": "Перевёрнутый Мир говорит о незавершённости."
       }
-    }
-  },
-
-  {
-    "id": 22,
-    "key": "fool",
-    "name": { "en": "The Fool", "ru": "Шут" },
-    "meaning": {
-      "en": "The Fool represents openness, trust, and the courage to begin anew.",
-      "ru": "Шут символизирует открытость, доверие и смелость начать заново."
     },
     "positions": {
       "past": {
-        "en": "You once stepped forward guided by curiosity.",
-        "ru": "Когда-то вы шагнули вперёд, ведомые любопытством."
+        "en": "A cycle reached fulfillment.",
+        "ru": "Цикл был завершён."
       },
       "present": {
-        "en": "Freedom comes from trusting the unknown.",
-        "ru": "Свобода приходит через доверие неизвестному."
+        "en": "You are integrating experience.",
+        "ru": "Ты соединяешь опыт."
       },
       "future": {
-        "en": "A new journey begins with openness.",
-        "ru": "Новый путь начинается с открытости."
+        "en": "Completion brings wholeness.",
+        "ru": "Завершение принесёт целостность."
       }
     }
   }
