@@ -41,3 +41,33 @@ def one_card_spread(language: str = "en"):
         },
         "meaning": meaning_block.get(language, meaning_block["en"])
     }
+from datetime import date
+import hashlib
+
+@app.get("/spread/daily")
+def daily_card(language: str = "en"):
+    today = date.today().isoformat()
+
+    # детерминированный seed от даты
+    seed = int(hashlib.sha256(today.encode()).hexdigest(), 16)
+    rng = random.Random(seed)
+
+    card = rng.choice(ARCANA)
+    is_reversed = rng.choice([True, False])
+
+    meaning_block = (
+        card["meaning"]["reversed"]
+        if is_reversed
+        else card["meaning"]["upright"]
+    )
+
+    return {
+        "date": today,
+        "card": {
+            "id": card["id"],
+            "key": card["key"],
+            "name": card["name"].get(language, card["name"]["en"]),
+            "orientation": "reversed" if is_reversed else "upright"
+        },
+        "meaning": meaning_block.get(language, meaning_block["en"])
+    }
