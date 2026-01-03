@@ -1,73 +1,40 @@
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import random
-import json
-from pathlib import Path
+import os
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils import executor
 
-app = FastAPI()
+# ================== НАСТРОЙКИ ==================
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+BOT_TOKEN = "8572579095:AAEGKsFxVEwQ-DyDVwkM8nyaiLoWk44Td28"
 
-ARCANA_PATH = Path(__file__).parent / "arcana.json"
+MINI_APP_URL = "https://alba-x-ai.github.io/arcana-miniapp/"
 
-with open(ARCANA_PATH, "r", encoding="utf-8") as f:
-    ARCANA = json.load(f)
+# ================== ИНИЦИАЛИЗАЦИЯ ==================
 
-# --- ОДНА КАРТА / ОДИН ВОПРОС ---
-@app.get("/spread/one")
-def one_card_spread(language: str = "en"):
-    card = random.choice(ARCANA)
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher(bot)
 
-    # ориентация определяется ВСЕГДА
-    is_reversed = random.choice([True, False])
+# ================== /start ==================
 
-    meaning_block = (
-        card["meaning"]["reversed"]
-        if is_reversed
-        else card["meaning"]["upright"]
+@dp.message_handler(commands=["start"])
+async def start_handler(message: types.Message):
+    text = (
+        "Arcana is a quiet tarot space.\n\n"
+        "Each day, one card.\n"
+        "No repetition. No noise.\n\n"
+        "Tap below to begin."
     )
 
-    return {
-        "card": {
-            "id": card["id"],
-            "key": card["key"],
-            "name": card["name"].get(language, card["name"]["en"]),
-            "orientation": "reversed" if is_reversed else "upright"
-        },
-        "meaning": meaning_block.get(language, meaning_block["en"])
-    }
-from datetime import date
-import hashlib
-
-@app.get("/spread/daily")
-def daily_card(language: str = "en"):
-    today = date.today().isoformat()
-
-    # детерминированный seed от даты
-    seed = int(hashlib.sha256(today.encode()).hexdigest(), 16)
-    rng = random.Random(seed)
-
-    card = rng.choice(ARCANA)
-    is_reversed = rng.choice([True, False])
-
-    meaning_block = (
-        card["meaning"]["reversed"]
-        if is_reversed
-        else card["meaning"]["upright"]
+    keyboard = types.InlineKeyboardMarkup(row_width=1)
+    keyboard.add(
+        types.InlineKeyboardButton(
+            text="🔮 Open Arcana",
+            web_app=types.WebAppInfo(url=MINI_APP_URL)
+        )
     )
 
-    return {
-        "date": today,
-        "card": {
-            "id": card["id"],
-            "key": card["key"],
-            "name": card["name"].get(language, card["name"]["en"]),
-            "orientation": "reversed" if is_reversed else "upright"
-        },
-        "meaning": meaning_block.get(language, meaning_block["en"])
-    }
+    await message.answer(text, reply_markup=keyboard)
+
+# ================== ЗАПУСК ==================
+
+if __name__ == "__main__":
+    executor.start_polling(dp, skip_updates=True)
