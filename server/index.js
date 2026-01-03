@@ -5,18 +5,14 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const app = express();
-
-/* -------------------- базовая настройка -------------------- */
-
 app.use(cors());
 app.use(express.json());
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
 const DB_PATH = path.join(__dirname, "db.json");
 
-/* -------------------- utils -------------------- */
+/* ---------- utils ---------- */
 
 function loadDB() {
   if (!fs.existsSync(DB_PATH)) {
@@ -29,18 +25,16 @@ function saveDB(data) {
   fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
 }
 
-/* -------------------- DIAGNOSTIC ROUTE -------------------- */
-/* ЭТО НУЖНО ДЛЯ ПРОВЕРКИ, ЧТО RENDER ЗАПУСТИЛ ИМЕННО ЭТОТ ФАЙЛ */
+/* ---------- health ---------- */
 
 app.get("/__ping", (req, res) => {
   res.json({ alive: true });
 });
 
-/* -------------------- MAIN API -------------------- */
+/* ---------- card of the day ---------- */
 
 app.post("/card-of-the-day", (req, res) => {
   const { user_id } = req.body;
-
   if (!user_id) {
     return res.status(400).json({ error: "No user_id" });
   }
@@ -48,32 +42,28 @@ app.post("/card-of-the-day", (req, res) => {
   const today = new Date().toISOString().slice(0, 10);
   const db = loadDB();
 
-  if (!db[user_id]) {
-    db[user_id] = {};
-  }
+  if (!db[user_id]) db[user_id] = {};
 
-  if (db[user_id][today] !== undefined) {
-    return res.json({
-      card: db[user_id][today],
-      cached: true
-    });
+  // если уже есть карта на сегодня
+  if (db[user_id][today]) {
+    return res.json(db[user_id][today]);
   }
 
   const card = Math.floor(Math.random() * 22); // 0–21
+  const reversed = Math.random() < 0.5; // true / false
 
-  db[user_id][today] = card;
+  const payload = {
+    card,
+    reversed
+  };
+
+  db[user_id][today] = payload;
   saveDB(db);
 
-  res.json({
-    card,
-    cached: false
-  });
+  res.json(payload);
 });
 
-/* -------------------- SERVER START -------------------- */
-
 const PORT = process.env.PORT || 3000;
-
 app.listen(PORT, () => {
   console.log(`Tarot backend running on port ${PORT}`);
 });
